@@ -60,9 +60,6 @@ import { SiGmail } from 'react-icons/si';
             <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/in/calvinquiambao/'}>
               <FaLinkedin />
             </SocialButton>
-            <SocialButton label={'Github'} href={'https://github.com/calvsssx'}>
-              <FaGithub />
-            </SocialButton>
             <SocialButton label={'GMail'} href={'calvin.quiambao@gmail.com'}>
               <SiGmail />
             </SocialButton>

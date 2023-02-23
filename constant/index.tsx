@@ -43,46 +43,11 @@ import {
   ];
   
   const siteConfig = {
-    copyright: `Copyright © ${new Date().getFullYear()} Teo Wen Long. All Rights Reserved.`,
-    author: {
-      name: "Teo Wen Long",
-      accounts: [
-        {
-          url: "https://github.com/WenLonG12345",
-          icon: <FaGithub />,
-          name: "Github",
-          type: "gray",
-        },
-        {
-          url: "https://www.linkedin.com/in/teo-wen-long-19960316/",
-          icon: <FaLinkedin />,
-          name: "Linkedin",
-          type: "linkedin",
-        },
-        {
-          url: "https://stackoverflow.com/users/12261890/teo",
-          icon: <FaStackOverflow />,
-          name: "StackOverflow",
-          type: "orange",
-        },
-        {
-          url: "https://skynight1996.medium.com/",
-          icon: <FaMedium />,
-          name: "Medium",
-          type: "gray",
-        },
-        {
-          url: "mailto:teowenlong0316@gmail.com",
-          icon: <SiGmail />,
-          name: "Gmail",
-          type: "red",
-        },
-      ],
-    },
+    
   };
   
   const resume = {
-    url: "https://drive.google.com/file/d/1KKVBejHxAr2PKhSCFufgnvdQTMUWt-u7/view?usp=sharing",
+    url: "",
     icon: <CgAlbum />,
     name: "Resume",
   };
@@ -147,26 +112,11 @@ import {
       icon: <FaJs fontSize="20px" />,
       url: "https://www.javascript.com/",
     },
-    // {
-    //   name: "Redux & Redux Saga",
-    //   icon: <SiRedux fontSize="20px" />,
-    //   url: "https://redux.js.org/",
-    // },
     {
       name: "Chakra UI",
       icon: <SiChakraui fontSize="20px" />,
       url: "https://chakra-ui.com/",
     },
-    // {
-    //   name: "Ant Design",
-    //   icon: <SiAntdesign fontSize="20px" />,
-    //   url: "https://ant.design/",
-    // },
-    // {
-    //   name: "SASS",
-    //   icon: <FaSass fontSize="20px" />,
-    //   url: "https://sass-lang.com/",
-    // },
   ];
   
   const otherTechStacks = [

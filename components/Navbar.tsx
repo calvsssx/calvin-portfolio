@@ -43,6 +43,10 @@ export default function Navbar() {
 
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
+            <Link href='https://drive.google.com/uc?export=download&id=1Gj6fHkPqiczjYPKBF9orYKzLmWLaRVAK'><Button colorScheme='teal' variant='outline'>
+              Download CV
+            </Button></Link>
+            
               <Button onClick={toggleColorMode}>
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
               </Button>
