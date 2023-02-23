@@ -213,128 +213,29 @@ import {
   ];
   
   const companies = [
-    {
-      title: "Astro",
-      alt: "astro image",
-      url: "https://www.astro.com.my/",
-      role: "Assiociate Frontend Engineer",
-      skills: ["React", "Sass", "Redux", "Redux Saga", "StorybookJS"],
-      period: "Oct 2022 - Present",
-      logo: "/astro.png",
-    },
-    {
-      title: "Qumon Intelligence",
-      alt: "qumon image",
-      url: "https://www.qumonintelligence.com/",
-      role: "Software Engineer",
-      skills: [
-        "Kotlin",
-        "Java",
-        "Android",
-        "Javascript",
-        "React",
-        "React Native",
-      ],
-      period: "Aug 2020 - Sept 2022",
-      logo: "/qumon.png",
-    },
-    {
-      title: "TimeTec Cloud Sdn Bhd",
-      alt: "timetec image",
-      url: "https://www.timeteccloud.com/",
-      role: "Mobile Application Developer Intern",
-      skills: ["Java", "Android", "C#", "Appium Automation Testing", "AWS"],
-      period: "Jul 2019 - Jan 2020",
-      logo: "/timetec.png",
-    },
+   {}
   ];
   
   const educations = [
-    {
-      title: "University Technology Malaysia (UTM)",
-      alt: "utm image",
-      url: "https://www.utm.my/",
-      role: "Bachelor's Degree in Computer Science (Network and Security)",
-      skills: ["CGPA - 3.79", "CCNA", "Security Management", "Network Security"],
-      period: "Sept 2016 - Sept 2020",
-      logo: "/utm.png",
-    },
-    {
-      title: "SMK Mentakab",
-      alt: "smk image",
-      url: "https://www.facebook.com/pages/category/College---university/Sekolah-Menengah-Kebangsaan-Mentakab-224802077565350/",
-      role: "STPM - Science Stream (Physics)",
-      skills: ["CGPA - 3.33", "Math T", "Physics", "Chemistry"],
-      period: "Jan 2015 - Jun 2016",
-      logo: "/smk.png",
-    },
+    {}
   ];
   
   const sideProjects = [
     {
-      name: "3CommasClub NFT",
-      imageUrl: "/3commas.png",
-      alt: "3commasclub",
+      name: "",
+      imageUrl: "",
+      alt: "",
       summary:
-        "NFC business card builder linked with unique NFT. Build business profile embed with NFC that allows others to scan and connect.",
-      link: "https://nextjs-3commasclub-frontend.vercel.app/",
+        "",
+      link: "",
       tech: [
-        'NextJS',
-        "ChakraUI",
-        "Ant Design",
-        "Ant Design Pro"
+        '',
+        "",
+        "",
+        ""
       ]
     },
-    {
-      name: "KlusterX Player Portal",
-      imageUrl: "/klusterx_player.png",
-      alt: "klusterx",
-      summary: "Online Casino Player Portal, built with NextJS, TailwindCSS and MantineUI",
-      tech: [
-        'NextJS',
-        "TailwindCSS",
-        "MantineUI",
-        "Zustand"
-      ]
-    },
-    {
-      name: "KlusterX Tenant Portal",
-      imageUrl: "/klusterx_tenant.png",
-      alt: "klusterx",
-      summary: "Online Casino Tenant Portal, built with Ant Design Pro",
-      tech: [
-        "UmiJS",
-        "Ant Design",
-        "Ant Design Pro"
-      ]
-    },
-    {
-      name: "Chativo",
-      imageUrl: "https://play-lh.googleusercontent.com/tgLiP-ZL-sBuZt2RzDU1tN88Cp7NPbdjF7c0311_dui86f1HrAQM0j4gXaRE0pb5zW0=s360-rw",
-      alt: "chativo",
-      summary: "Enterprise ready live-chat base customer support & engagement software",
-      tech: [
-        "Android",
-        "Kotlin",
-        "Android Jetpack",
-        "Coroutine Flow",
-      ],
-      link: "https://play.google.com/store/apps/details?id=io.chativo.chat"
-    },
-    {
-      name: "ChativoV",
-      imageUrl: "https://play-lh.googleusercontent.com/5U5s7sSIuzP6CygPkU2ZYxyOXT-MKv7oiyweGKHgkEgVameOcYt44rnXqCTWZJNZgVqn=s360-rw",
-      alt: "chativo-v",
-      summary: "Live-chat specifically designed for visitors to communicate with real-time agent instantly",
-      tech: [
-        "React Native",
-        "Javascript",
-        "Redux",
-        "Redux Saga",
-        "RealmJS"
-      ],
-      link: "https://play.google.com/store/apps/details?id=io.chativo.visitor"
-    },
+  
   ];
   
   export {

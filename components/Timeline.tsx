@@ -20,8 +20,7 @@ const milestones = [
     description: `Successfully migrated on-premise background
     operations to cloud for an accounting
     documentation tool related to abandoned and
-    unclaimed property, decreasing processing time by
-    30%.`
+    unclaimed property.`
   },
   {
     id: 2,
@@ -37,7 +36,7 @@ const milestones = [
     date: 'July 2019 - June 2021',
     title: 'Accenture Inc. - Application Development Analyst',
     description:
-      'Worked as a key member of the team that developed SOX Compliance System and Well Integrity Management System- 2 applications used by SoCalGas and SDGE.'
+      'Worked as a key member of the team that developed applications used by largest electric company based in Los Angeles and San Diego.'
   }
 ];
 
