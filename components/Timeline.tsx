@@ -25,7 +25,7 @@ const milestones = [
   {
     id: 2,
     date: 'August 2021 - June 2022',
-    title: 'Programmer/Analyst, S2. - Vertere Global Solutions Inc.',
+    title: 'Vertere Global Solutions Inc. - Programmer/Analyst, S2.',
     description: `Successfully implemented an HRMS that helped the
     company manage its human resources more
     effectively and efficiently.
