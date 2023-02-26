@@ -22,14 +22,4 @@ const Home = async () =>  {
   )
 }
 
-export async function getStaticProps() {
-  const repos = await getGithubRepos(process.env.GITHUB_USERNAME || "");
-
-  return {
-    props: {
-      repos: repos || null,
-    },
-  };
-}
-
 export default Home;
