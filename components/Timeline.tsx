@@ -9,36 +9,11 @@ import {
   VStack,
   Flex,
   useColorModeValue,
-  useBreakpointValue
+  useBreakpointValue,
+  SlideFade,
+  Tag
 } from '@chakra-ui/react';
-
-const milestones = [
-  {
-    id: 1,
-    date: 'June 2022 - February 2022',
-    title: 'Cognizant Softvision - Software Engineer',
-    description: `Successfully migrated on-premise background
-    operations to cloud for an accounting
-    documentation tool related to abandoned and
-    unclaimed property.`
-  },
-  {
-    id: 2,
-    date: 'August 2021 - June 2022',
-    title: 'Vertere Global Solutions Inc. - Programmer/Analyst, S2.',
-    description: `Successfully implemented an HRMS that helped the
-    company manage its human resources more
-    effectively and efficiently.
-    `
-  },
-  {
-    id: 3,
-    date: 'July 2019 - June 2021',
-    title: 'Accenture Inc. - Application Development Analyst',
-    description:
-      'Worked as a key member of the team that developed applications used by largest electric company based in Los Angeles and San Diego.'
-  }
-];
+import {milestones} from '../constant'
 
 const Milestones = () => {
   const isMobile = useBreakpointValue({ base: true, md: false });
@@ -46,6 +21,7 @@ const Milestones = () => {
 
   return (
     <Container maxWidth="7xl" p={{ base: 2, sm: 10 }}>
+      <SlideFade in offsetY={80} delay={0.2}>
       <chakra.h3 fontSize="4xl" fontWeight="bold" mb={18} textAlign="center">
         Work Experience
       </chakra.h3>
@@ -79,6 +55,7 @@ const Milestones = () => {
           )}
         </Flex>
       ))}
+      </SlideFade>
     </Container>
   );
 };
@@ -88,9 +65,10 @@ interface CardProps {
   title: string;
   description: string;
   date: string;
+  stack: string[]
 }
 
-const Card = ({ id, title, description, date }: CardProps) => {
+const Card = ({ id, title, description, date, stack }: CardProps) => {
   // For even id show card on left side
   // For odd id show card on right side
   const isEvenId = id % 2 == 0;
@@ -138,6 +116,18 @@ const Card = ({ id, title, description, date }: CardProps) => {
           </chakra.h1>
           <Text fontSize="md">{description}</Text>
         </VStack>
+        <Flex justifyContent={"flex-start"} width="100%" gap={"10px"}>
+          {stack.map((stack)=>(<Box>
+                  <HStack spacing="1">
+                    <Tag size="sm">
+                      <Text fontSize={["0.55rem", "inherit", "inherit"]}>
+                        {stack}
+                      </Text>
+                    </Tag>
+                  </HStack>
+                </Box>))}
+                
+              </Flex>
       </Box>
     </HStack>
   );
