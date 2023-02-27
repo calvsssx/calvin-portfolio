@@ -117,7 +117,7 @@ const Card = ({ id, title, description, date, stack }: CardProps) => {
           <Text fontSize="md">{description}</Text>
         </VStack>
         <Flex justifyContent={"flex-start"} width="100%" gap={"10px"}>
-          {stack.map((stack)=>(<Box>
+          {stack.map((stack)=>(<Box key={stack}>
                   <HStack spacing="1">
                     <Tag size="sm">
                       <Text fontSize={["0.55rem", "inherit", "inherit"]}>
