@@ -68,7 +68,7 @@ const milestones = [
     description: `Successfully implemented an HRMS that helped the
       company manage its human resources more
       effectively and efficiently.`,
-    stack: [".NET", "C#", "Angular", "TypeScript", "SQL SSMS"],
+    stack: [".NET", "C#", "Angular", "SQL SSMS"],
   },
   {
     id: 3,
@@ -88,7 +88,7 @@ const milestones = [
   },
   {
     id: 5,
-    date: "2015 - 2021",
+    date: "2015 - 2019",
     title: "Graduated from University of Santo Tomas",
     description:
       "Graduated with a degree of Bachelor of Science in Information Technology.",
