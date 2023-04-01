@@ -53,7 +53,14 @@ const resume = {
 const milestones = [
   {
     id: 1,
-    date: "June 2022 - February 2022",
+    date: "March 2023 - Present",
+    title: "NCS Group Singapore - Software Engineer",
+    description: ``,
+    stack: [],
+  },
+  {
+    id: 2,
+    date: "June 2022 - February 2023",
     title: "Cognizant Softvision - Software Engineer",
     description: `Successfully migrated on-premise background
       operations to cloud for an accounting
@@ -62,7 +69,7 @@ const milestones = [
     stack: [".NET", "C#", "Azure Cloud Functions", "SQL SSMS"],
   },
   {
-    id: 2,
+    id: 3,
     date: "August 2021 - June 2022",
     title: "Vertere Global Solutions Inc. - Programmer/Analyst, S2.",
     description: `Successfully implemented an HRMS that helped the
@@ -71,7 +78,7 @@ const milestones = [
     stack: [".NET", "C#", "Angular", "SQL SSMS"],
   },
   {
-    id: 3,
+    id: 4,
     date: "July 2019 - June 2021",
     title: "Accenture Inc. - Application Development Analyst",
     description:
@@ -79,7 +86,7 @@ const milestones = [
     stack: [".NET Core", "C#", "SQL SSMS"],
   },
   {
-    id: 4,
+    id: 5,
     date: "August 2018 - December 2018",
     title: "Accenture Inc. - Software Development Intern",
     description:
@@ -87,7 +94,7 @@ const milestones = [
     stack: ["Dialogflow", "Node JS", "Google Cloud Functions"],
   },
   {
-    id: 5,
+    id: 6,
     date: "2015 - 2019",
     title: "Graduated from University of Santo Tomas",
     description:
